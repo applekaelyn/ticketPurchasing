@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta name="full-screen" content="yes">
+		<meta name="x5-fullscreen" content="true">
+		<meta name="apple-touch-fullscreen" content="yes">
+		<meta name="screen-orientation" content="portrait">
+		<meta name="x5-orientation" content="portrait">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="format-detection" content="email=no" />
+		<title>天合任我行-忘记密码</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	</head>
+	<body>
+		<div class="login background1">
+			<!--忘记密码-->
+			<div class="forget-cont">
+				<!--head-->
+				<div class="head">
+					<img src="images/head.jpg"/>
+				</div>
+				<!--input-->
+				<ul class="input-wrap">
+					<li>
+						<div><span class="icon-phone icon"></span></div>
+						<input type="text" name="" id="phone" value="" placeholder="请输入手机号" />
+						<span class="line"></span>
+					</li>
+					<li class="identify-code">
+						<div id="identify-code" class="" data-code='0'>发送验证码</div>
+						<p id="identify-time" class="hide">60s</p>
+					</li>
+					<li>
+						<div><span class="icon-txt icon">验证码</span></div>
+						<input type="text" name="" id="identify" value="" placeholder="请输入验证码" />
+						<p class="identify-txt">验证码错误</p>
+						<span class="line"></span>
+					</li>
+				</ul>
+				<!--btns-->
+				<ul class="forget-btns">
+					<li class="btns active btn-forget-next">下一步</li>
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript">
+			var baseURL = 'images/';
+		</script>
+		<script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/forget.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

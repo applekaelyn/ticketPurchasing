@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta name="full-screen" content="yes">
+		<meta name="x5-fullscreen" content="true">
+		<meta name="apple-touch-fullscreen" content="yes">
+		<meta name="screen-orientation" content="portrait">
+		<meta name="x5-orientation" content="portrait">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="format-detection" content="email=no" />
+		<title>天合任我行-登录</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	</head>
+	<body>
+		<div class="login background1">
+			<!--登录-->
+			<div class="login-cont">
+				<!--head-->
+				<div class="head">
+					<img src="images/head.jpg"/>
+				</div>
+				<!--input-->
+				<ul class="input-wrap">
+					<li>
+						<div><span class="icon-phone icon"></span></div>
+						<input type="text" name="" id="account" value="" placeholder="请输入手机号" />
+						<span class="line"></span>
+					</li>
+					<li>
+						<div><span class="icon-lock icon"></span></div>
+						<input type="password" name="" id="password" value="" placeholder="请输入密码" />
+						<span class="line"></span>
+					</li>
+				</ul>
+				<!--auto-->
+				<div class="auto-login">
+					<div>
+						<span class="icon-login" data-auto='0'></span>
+						<span>自动登录</span>
+					</div>
+				</div>
+				<!--btns-->
+				<ul class="login-btns">
+					<li class="btns active btn-login">登录</li>
+					<li class="btns btn-register">注册</li>
+				</ul>
+				<!--foget-->
+				<div class="login-forget">
+					<button>忘记密码？</button>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			var baseURL = 'images/';
+		</script>
+		<script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/common.js"></script>
+		<script src="js/login.js" type="text/javascript"></script>
+	</body>
+</html>

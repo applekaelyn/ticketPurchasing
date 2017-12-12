@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta name="full-screen" content="yes">
+		<meta name="x5-fullscreen" content="true">
+		<meta name="apple-touch-fullscreen" content="yes">
+		<meta name="screen-orientation" content="portrait">
+		<meta name="x5-orientation" content="portrait">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="format-detection" content="email=no" />
+		<title>天合联盟销售系统</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	</head>
+	<body>
+		<div class="tourist background1">
+			<div class="header"> 
+				<span class="header-photo"><img src="images/head.jpg"/></span>
+			</div>
+			<div class="form-table">
+				<form action="" id="form-table">
+					<dl class="title">
+						<dt>欢迎，<span>PC9527</span></dt>
+						<dd>请填写以下信息以提交套票</dd>
+					</dl>
+					<dl>
+						<dt><span class="gray"></span></dt>
+						<dd><input type="text" name="wechat" id="wechat" placeholder="请输入微信号*" /></dd>
+						<span class="line"></span>
+					</dl>
+					<dl>
+						<dt><span class="gray"></span></dt>
+						<dd><input type="text" name="phone" id="phone" placeholder="请输入手机号*" /></dd>
+						<span class="line"></span>
+					</dl>
+					<dl>
+						<dt><span class="gray"></span></dt>
+						<dd><input type="text" name="address" id="address" placeholder="请输入邮寄地址*" /></dd>
+						<span class="line"></span>
+					</dl>
+					<dl>
+						<dt>套票号</dt>
+						<dd><input type="text" name="ticket" id="ticket" placeholder="请输入套票号(选填)" /></dd>
+						<span class="line"></span>
+					</dl>
+					<dl>
+						<dt>上传图片</dt>
+						<dd>
+							<div class="file-box">
+								<img id="preview-img" src="images/picture.png" class="hide">
+								<input  type="file" name="fileScreen" accept="image/*" id="fileScreen" value="">
+							</div>
+						</dd>
+						<span class="line"></span>
+					</dl>
+					<dl>
+						<dt>其他</dt>
+						<dd><input type="text" name="ticket" id="other" placeholder="其他(选填)" /></dd>
+						<span class="line"></span>
+					</dl>
+					<div class="submit">提交</div>
+				</form>
+			</div>
+		</div>
+		<script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			var baseURL = 'images/';
+		</script>
+		<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/tourist.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
